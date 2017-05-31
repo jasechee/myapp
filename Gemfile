@@ -37,6 +37,12 @@ group :development, :test do
   gem 'byebug'
 end
 
+  gem 'bootstrap', '~> 4.0.0.alpha6'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-tether', '>= 1.3.3'
+end
+
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
